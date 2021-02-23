@@ -44,3 +44,4 @@ Pronto para rodar em produção? Porfavor [verifique os guias de deploy](https:/
 ## Aulas
 
 - [Aula 1](https://www.notion.so/Aula-1-a6ef785a145f4175abce2c1f55a0c4ff)
+- [Aula 2](https://www.notion.so/Aula-2-7365e5e1f1fc448ba0b0247b7acc7717)
