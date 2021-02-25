@@ -3,6 +3,7 @@ defmodule Rocketpay.User do
 
   import Ecto.Changeset #tras funcionalidades do Ecto para o modulo
   alias Ecto.Changeset
+  alias Rocketpay.Account
   # Variaveis de modulo
   @primary_key {:id, :binary_id, autogenerate: true} # Variavel de modulo, como uma constante
   # Qual o formato da chave primaria, binary_id é um UUID
@@ -16,6 +17,8 @@ defmodule Rocketpay.User do
     field :password,      :string, virtual: true # Campo virtual significa que ele vai receber mas quando gravar ele nao existe
     field :password_hash, :string
     field :nickname,      :string
+
+    has_one  :account,     Account
 
     timestamps()
   end
